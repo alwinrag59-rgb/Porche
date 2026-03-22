@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-porche-black: #1a1a1a;
+  --color-pagani-black: #1a1a1a;
+  --color-porche-gold: #D4AF37;
+  --color-pagani-gold: #D4AF37;
+  --color-bright-gold: #FFD700;
+  --color-carbon-gray: #2a2a2a;
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+  --font-old-standard: "Old Standard TT", serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-porche-black);
+    color: white;
+    font-family: var(--font-rajdhani);
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: var(--color-porche-gold);
+    color: var(--color-porche-black);
+  }
+}
