@@ -7,7 +7,7 @@ interface ZondaScrollCanvasProps {
     scrollYProgress: MotionValue<number>;
     totalFrames: number;
     imageFolderPath: string;
-}
+}//Alwin
 
 export default function ZondaScrollCanvas({
     scrollYProgress,
